@@ -43,6 +43,27 @@
     transform: scale(1.05);
     box-shadow: 0 4px 20px rgba(0,0,0,0.3);
   }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .gallery-item {
+    text-align: center;
+  }
+  
+  figcaption {
+    margin-top: 8px;
+    font-size: 1.5rem;
+    color: #444;
+    font-weight: 1000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-variant: initial;
+  }
+  
   
   main {
     flex: 1; 
